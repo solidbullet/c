@@ -6,3 +6,4 @@ g++ -o test test.cpp -L./addlib -ladd
 4、要在  /etc/ld.so.conf  文件中增加路径 /home/workspace/so/addlib
 5、执行ldconfig命令
 6、./test  成功
+7. window安装MinGW  :https://nuwen.net/mingw.html#install
