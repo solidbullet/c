@@ -1,4 +1,4 @@
-c++调用c函数
-1、可在h头文件中增加extern
-2、也可以在 cpp文件中 extern "C" void func(int x);
-3、也可以增加cpp.h,在其中#include { extern "C" c.h}类似这种格式，此处定义的不对，只是供参考
+##c++调用c函数
+###1、可在h头文件中增加extern
+###2、也可以在 main.cpp文件中 extern "C" void func(int x);
+###3、也可以增加cpp.h,在其中#include { extern "C" c.h}类似这种格式，此处定义的不对，只是供参考
