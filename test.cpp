@@ -1,11 +1,9 @@
-#include <iostream>
-#include "./addlib/add.h"
-using namespace std;
+#ifdef __cplusplus 
+extern "C" { 
+#endif
 
-int main()
-{
-  int number1 = 10;
-  int number2 = 20;
-  cout << "result is: " << add(number1,number2) << endl;
-  return 0;
-}
+//一段代码
+
+#ifdef __cplusplus 
+} 
+#endif
